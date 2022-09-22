@@ -20,7 +20,7 @@ class BackgroundWidget extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          height: 500.0,
+          height: 800.0,
           decoration: BoxDecoration(
             color: Colors.black12,
             border: Border.all(color: Colors.white10),
