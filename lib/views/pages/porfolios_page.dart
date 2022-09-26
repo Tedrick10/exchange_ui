@@ -21,13 +21,13 @@ class PorfoliosPage extends StatelessWidget {
         isDashboard: false,
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: const [
+          children: [
             SizedBox(height: 30.0),
             PorfoliosTitleWidget(),
             SizedBox(height: 40.0),
             PorfoliosChartWidget(),
             SizedBox(height: 40.0),
-            PorfoliosListWidget(),
+            PorfoliosListWidget(parentsContext: context),
           ],
         ),
       ),

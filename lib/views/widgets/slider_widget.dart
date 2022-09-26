@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Widgets
-import './slider_cell_widget.dart';
+import 'dashboard/slider_cell_widget.dart';
 
 // SliderWidget: StatelessWidget Class
 class SliderWidget extends StatelessWidget {

@@ -7,10 +7,19 @@ import 'package:intl/intl.dart';
 // Controllers
 import '../../../controllers/porfolios/porfolios_chart_controller.dart';
 
+// Pages
+import '../../pages/porfolios_details_page.dart';
+
 // PorfoliosListWidget: StatefulWidget Class
 class PorfoliosListWidget extends StatefulWidget {
+  // Parameter: Class Properties
+  final BuildContext parentsContext;
+
   // Constructor
-  const PorfoliosListWidget({Key? key}) : super(key: key);
+  const PorfoliosListWidget({
+    required this.parentsContext,
+    Key? key,
+  }) : super(key: key);
 
   // CreateState: Override Class Method
   @override
@@ -97,7 +106,15 @@ class _PorfoliosListWidgetState extends State<PorfoliosListWidget> {
                           ),
                         ),
                         IconButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => PorfoliosDetailsPage(
+                                  title: chartData.title,
+                                ),
+                              ),
+                            );
+                          },
                           padding: const EdgeInsets.all(5.0),
                           icon: Icon(
                             Icons.arrow_forward_ios,
