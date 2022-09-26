@@ -97,10 +97,6 @@ class _CashflowChartWidgetState extends State<CashflowChartWidget> {
   // Build: Override Class Method
   @override
   Widget build(BuildContext context) {
-    // Debugging
-    print("----- Device Screen Width -----");
-    print(MediaQuery.of(context).size.width);
-
     // Final: Method Properties
     final double screenWidth = MediaQuery.of(context).size.width;
 

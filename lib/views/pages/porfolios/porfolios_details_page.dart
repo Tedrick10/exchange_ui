@@ -24,7 +24,7 @@ class PorfoliosDetailsPage extends StatelessWidget {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(
-            horizontal: 25.0,
+            horizontal: 20.0,
             vertical: 10.0,
           ),
           child: Column(

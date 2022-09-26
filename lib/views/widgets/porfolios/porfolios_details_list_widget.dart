@@ -48,7 +48,7 @@ class _PorfoliosDetailsListWidgetState
                       widget.title,
                       style: TextStyle(
                         color: Colors.grey,
-                        fontSize: (widget.title.length > 15) ? 14 : 15,
+                        fontSize: (widget.title.length > 15) ? 12 : 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
