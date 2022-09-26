@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 
 // Widgets
-import '../widgets/slider_widget.dart';
-import '../widgets/porfolios/porfolios_details_list_widget.dart';
+import '../../widgets/slider_widget.dart';
+import '../../widgets/porfolios/porfolios_details_list_widget.dart';
 
 // PorfoliosDetailsPage: StatelessWidget Class
 class PorfoliosDetailsPage extends StatelessWidget {

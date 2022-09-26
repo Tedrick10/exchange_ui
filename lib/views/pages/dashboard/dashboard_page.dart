@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Widgets
-import '../widgets/background_widget.dart';
-import '../widgets/dashboard/balance_widget.dart';
-import '../widgets/slider_widget.dart';
-import '../widgets/dashboard/cashflow_widget.dart';
+import '../../widgets/background_widget.dart';
+import '../../widgets/balance_widget.dart';
+import '../../widgets/slider_widget.dart';
+import '../../widgets/dashboard/cashflow_widget.dart';
 
 // DashboardPage: StatelessWidget Class
 class DashboardPage extends StatelessWidget {

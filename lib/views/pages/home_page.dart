@@ -5,9 +5,9 @@ import "package:flutter/material.dart";
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
 // Pages
-import './dashboard_page.dart';
-import './porfolios_page.dart';
-import './listing_page.dart';
+import 'dashboard/dashboard_page.dart';
+import './porfolios/porfolios_page.dart';
+import './listing/listing_page.dart';
 
 // HomePage: StatelessWidget Class
 class HomePage extends StatelessWidget {
@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
   // Final: Class Properties
   final PersistentTabController tabController =
       PersistentTabController(initialIndex: 0);
-  final List<Widget> pagesList = const [
+  final List<Widget> pagesList = [
     DashboardPage(),
     PorfoliosPage(),
     ListingPage(),

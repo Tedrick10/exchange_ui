@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Widgets
-import '../widgets/background_widget.dart';
-import '../widgets/porfolios/porfolios_title_widget.dart';
-import '../widgets/porfolios/porfolios_chart_widget.dart';
-import '../widgets/porfolios/porfolios_list_widget.dart';
+import '../../widgets/background_widget.dart';
+import '../../widgets/porfolios/porfolios_title_widget.dart';
+import '../../widgets/porfolios/porfolios_chart_widget.dart';
+import '../../widgets/porfolios/porfolios_list_widget.dart';
 
 // PorfoliosPage: StatelessWidget Class
 class PorfoliosPage extends StatelessWidget {
